@@ -7,6 +7,20 @@
     /* 背景图像大小 */
     background-size: cover;
   }
+@font-face {
+    font-family:'arzhu';
+    src:url('https://qiongminglin.github.io/img/font/font.ttf'); /* 修改成你的字体 */
+    font-display:swap
+}
+h1#site-title {
+    font-family:arzhu!important
+}
+span#subtitle {
+    font-family:arzhu!important
+}
+a#site-name {
+    font-family:arzhu!important
+}
 
 /*#web_bg {
   background: -webkit-linear-gradient(
